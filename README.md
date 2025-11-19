@@ -1,5 +1,5 @@
-# Aliance
+## Aliance
 
 AlianceProduction website
 
-## Author: Sergey Medvedev
+### Author: Sergey Medvedev
