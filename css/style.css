@@ -11,6 +11,7 @@
 }
 
 body {
+  width: 1920px;
   margin: 0;
   font-family: "Noto Sans", sans-serif;
 }
@@ -27,7 +28,7 @@ body {
 
 .header-image {
   background-image: url("../img/main_img.png");
-  background-position: center;
+  background-position: center bottom -18px;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -52,7 +53,7 @@ body {
   position: fixed;
   left: 0;
   top: 0;
-  width: 100%;
+  width: 1920px;
   z-index: 2;
   border-bottom: 1px solid rgba(235, 235, 240, 0.2);
   transition: background-color 0.2s, height 0.2s;
@@ -81,14 +82,15 @@ body {
   flex-basis: 100%;
   list-style: none;
   padding: 0 40px;
-  margin: 0;
-  justify-content: space-between;
+  margin: 0 15px;
+  letter-spacing: 0.2px;
 }
 
 .header-nav-link {
   text-decoration: none;
   font-size: 16px;
   color: inherit;
+  margin-right: 50px;
 }
 
 .header-phone {
@@ -108,13 +110,14 @@ body {
   font-weight: 600;
   line-height: 160%;
   color: white;
-  padding: 25px 25px;
+  padding: 25px 65px;
   background: rgba(92, 142, 230, 1);
   border: none;
   cursor: pointer;
 }
 
 .navbar-button {
+  padding: 25px 53px;
   flex-shrink: 0;
   height: 100%;
 }
@@ -125,14 +128,6 @@ body {
   background: rgba(92, 142, 230, 1);
 }
 
-.header-title {
-  color: rgba(255, 255, 255, 1);
-  font-size: 80px;
-  font-weight: 400;
-  line-height: 120%;
-  text-align: left;
-}
-
 .header-content {
   padding-top: 150px;
   position: relative;
@@ -141,12 +136,14 @@ body {
 }
 
 .header-title {
-  max-width: 1000px;
+  max-width: 1080px;
+  color: #fff;
   font-family: "Bebas Neue Book";
   font-size: 80px;
   font-weight: 400;
   line-height: 120%;
-  margin: 30px 0;
+  letter-spacing: 0.7px;
+  margin: 21px 0;
 }
 
 .header-text {
@@ -154,12 +151,14 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 160%;
+  margin-top: 41px;
   margin-bottom: 50px;
 }
 
 .header-features {
   display: flex;
   min-height: 168px;
+  width: 1440px;
   padding: 0;
   margin-top: 100px;
   list-style: none;
@@ -168,7 +167,8 @@ body {
 }
 
 .header-features-item {
-  padding: 30px 50px;
+  width: 288px;
+  padding: 17px 44px;
   border: 1px solid rgba(235, 235, 240, 0.2);
 }
 
@@ -177,6 +177,7 @@ body {
 }
 
 .header-features-text {
+  margin-top: 24px;
   font-size: 16px;
   font-weight: 400;
   line-height: 160%;
@@ -187,8 +188,10 @@ body {
   margin-bottom: 150px;
 }
 .section-title {
+  margin-top: 12px;
+  margin-bottom: 42px;
   font-family: "Bebas Neue Book";
-  font-size: 28px;
+  font-size: 60px;
   font-weight: 400;
   line-height: 160%;
 }
