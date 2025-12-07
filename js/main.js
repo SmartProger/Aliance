@@ -1,15 +1,18 @@
 const navbar = document.querySelector(".navbar");
-const logo = document.querySelector(".logo-svg use");
+const logoLight = document.querySelector(".logo-light");
+const logoDark = document.querySelector(".logo-dark");
 const menuToggle = document.querySelector(".mobile-menu-toggle");
 const menu = document.querySelector(".mobile-menu");
 
 const lightModeOn = (event) => {
   navbar.classList.add("navbar-light");
-  logo.href.baseVal = "img/sprite.svg#logo-dark";
+  logoDark.style.display = "block";
+  logoLight.style.display = "none";
 };
 const lightModeOff = (event) => {
   navbar.classList.remove("navbar-light");
-  logo.href.baseVal = "img/sprite.svg#logo-light";
+  logoLight.style.display = "block";
+  logoDark.style.display = "none";
 };
 
 const openMenu = (event) => {
