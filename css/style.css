@@ -24,7 +24,7 @@ body {
 }
 
 .container {
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin: auto;
 }
 
@@ -332,7 +332,7 @@ body {
 
 @media (max-width: 1220px) {
   .container {
-    max-width: 70rem;
+    /* max-width: 70rem; */
   }
   .header-phone {
     display: none;
@@ -355,7 +355,7 @@ body {
     font-size: 12px;
   }
   .container {
-    max-width: 60rem;
+    /* max-width: 60rem; */
   }
   .header-nav {
     display: none;
@@ -476,7 +476,7 @@ body {
 
 @media (max-width: 768px) {
   .container {
-    max-width: 40rem;
+    /* max-width: 40rem; */
   }
   .header-title {
     font-size: 4.5rem;
@@ -488,7 +488,7 @@ body {
 
 @media (max-width: 576px) {
   .container {
-    max-width: 90%;
+    /* max-width: 90%; */
   }
   .header-title {
     font-size: 3rem;
