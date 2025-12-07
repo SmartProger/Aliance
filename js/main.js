@@ -40,7 +40,7 @@ menuToggle.addEventListener("click", (event) => {
   menu.classList.contains("is-open") ? closeMenu() : openMenu();
 });
 
-const swiper = new Swiper(".swiper", {
+const swiper = new Swiper(".features-slider", {
   speed: 400,
   autoHeight: true,
   slidesPerView: 5,
@@ -60,6 +60,29 @@ const swiper = new Swiper(".swiper", {
     },
     1220: {
       slidesPerView: 5,
+    },
+  },
+});
+
+const swiperSteps = new Swiper(".steps-slider", {
+  speed: 400,
+  autoHeight: true,
+  slidesPerView: 4,
+
+  navigation: {
+    nextEl: ".steps-button-next",
+    prevEl: ".steps-button-prev",
+  },
+
+  breakpoints: {
+    320: {
+      slidesPerView: 2,
+    },
+    768: {
+      slidesPerView: 3,
+    },
+    1024: {
+      slidesPerView: 4,
     },
   },
 });
