@@ -522,6 +522,12 @@ body {
   flex-basis: 30%;
   border: 1px solid #ebebf0;
   padding: 1rem;
+  filter: grayscale(100%);
+  transition: filter 0.3s;
+}
+
+.clients-logo-item:hover {
+  filter: grayscale(0%);
 }
 
 .clients-logo {
