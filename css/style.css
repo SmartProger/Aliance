@@ -68,6 +68,21 @@ body {
 .navbar-light {
   background-color: #fff;
   color: rgb(41, 45, 51);
+}
+
+.logo-dark {
+  display: none;
+}
+
+.navbar-light .logo-light {
+  display: none;
+}
+
+.navbar-light .logo-dark {
+  display: block;
+}
+
+.navbar-scroll {
   height: 4.5rem;
 }
 
@@ -85,10 +100,6 @@ body {
 
 .phone-svg {
   fill: #5c8ee6;
-}
-
-.logo-dark {
-  display: none;
 }
 
 .logo-svg {
