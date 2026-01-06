@@ -15,7 +15,10 @@
 				type="text" 
 				class="input" 
 				name="username" 
-				placeholder="" />
+				placeholder="" 
+				maxlength="100"
+				required
+				/>
                 <label class="input-gpoup-label" for="user-name">Имя</label>
               </div>
               <div class="input-group">
@@ -24,7 +27,10 @@
 				type="tel" 
 				class="input" 
 				name="userphone"
-				placeholder="" />
+				placeholder=""
+				maxlength="30"
+				required
+				/>
                 <label class="input-gpoup-label" for="user-phone">Номер телефона</label>
               </div>
             </div>
