@@ -1,6 +1,6 @@
 <?php
-$user_name = $POST['username'];
-$user_phone = $POST['userphone'];
+$user_name = $_POST['username'];
+$user_phone = $_POST['userphone'];
 echo 'Привет, ' . $user_name . '<br>';
 echo 'Ваш телефон: <b>' . $user_phone . '</b>';
 ?>
