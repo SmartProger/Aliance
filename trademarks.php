@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-  <?php 
-  $page_title = "О компании";
-  include_once("templateParts/head.php"); ?>
+  
+<?php 
+$page_title = "Собственные торговые марки";
+include_once("templateParts/head.php"); ?>
 
   <body>
     
-  	<? include_once("templateParts/mobileMenu.php"); ?>
+    <? include_once("templateParts/mobileMenu.php"); ?>
 	<? include_once("templateParts/navbar.php"); ?>
-    
+
     <section class="header-secondary">
       <div class="container">
         <div class="header-secondary-content">

@@ -940,17 +940,17 @@ body {
   display: block;
 }
 
-.header-pages {
+.header-secondary {
   margin-top: 5.875rem;
   background: #f0f2f5;
 }
 
-.header-pages-content {
+.header-secondary-content {
   display: flex;
   flex-direction: column;
 }
 
-.header-pages-separator {
+.header-secondary-separator {
   margin-top: 3.125rem;
 }
 
