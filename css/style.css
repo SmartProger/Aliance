@@ -927,8 +927,6 @@ body {
 .header-pages {
   margin-top: 5.875rem;
   background: #f0f2f5;
-  position: relative;
-  z-index: 3;
 }
 
 .header-pages-content {
