@@ -107,23 +107,28 @@ const swiperBlog = new Swiper(".blog-slider", {
   },
 });
 
-const modal = document.querySelector(".modal");
-const modalDialog = document.querySelector(".modal-dialog");
+let currentModal; // текущее модальное окно
+let modalDialog; // белое окошко модалки
+let alertModal = document.querySelector("#alert-modal");
 
-document.addEventListener("click", (event) => {
-  if (
-    event.target.dataset.toggle == "modal" ||
-    event.target.parentNode.dataset.toggle == "modal" ||
-    (!event.composedPath().includes(modalDialog) && modal.classList.contains("is-open"))
-  ) {
+const modalButtons = document.querySelectorAll("[data-toggle=modal]");
+modalButtons.forEach((button) => {
+  button.addEventListener("click", (event) => {
     event.preventDefault();
-    modal.classList.toggle("is-open");
-  }
+    currentModal = document.querySelector(button.dataset.target);
+    currentModal.classList.toggle("is-open");
+    modalDialog = currentModal.querySelector(".modal-dialog");
+    currentModal.addEventListener("click", (event) => {
+      if (!event.composedPath().includes(modalDialog)) {
+        currentModal.classList.remove("is-open");
+      }
+    });
+  });
 });
 
 document.addEventListener("keyup", (event) => {
-  if (event.key == "Escape" && modal.classList.contains("is-open")) {
-    modal.classList.toggle("is-open");
+  if (event.key == "Escape" && currentModal.classList.contains("is-open")) {
+    currentModal.classList.toggle("is-open");
   }
 });
 
@@ -164,7 +169,15 @@ forms.forEach((form) => {
         }).then((response) => {
           if (response.ok) {
             thisForm.reset();
-            alert("Форма отправлена!");
+            currentModal.classList.remove("is-open");
+            alertModal.classList.add("is-open");
+            currentModal = alertModal;
+            modalDialog = currentModal.querySelector(".modal-dialog");
+            currentModal.addEventListener("click", (event) => {
+              if (!event.composedPath().includes(modalDialog)) {
+                currentModal.classList.remove("is-open");
+              }
+            });
           } else {
             thisForm.reset();
             alert("Ошибка: " + response.statusText);
