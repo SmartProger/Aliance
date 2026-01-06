@@ -155,6 +155,22 @@ forms.forEach((form) => {
       },
     ])
     .onSuccess((event) => {
-      console.log(event.target.getAttribute("method"));
+      const thisForm = event.target;
+      const formData = new FormData(thisForm);
+      const ajaxSend = (formData) => {
+        fetch(thisForm.getAttribute("action"), {
+          method: thisForm.getAttribute("method"),
+          body: formData,
+        }).then((response) => {
+          if (response.ok) {
+            thisForm.reset();
+            alert("Форма отправлена!");
+          } else {
+            thisForm.reset();
+            alert("Ошибка: " + response.statusText);
+          }
+        });
+      };
+      ajaxSend(formData);
     });
 });
