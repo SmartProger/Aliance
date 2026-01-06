@@ -608,16 +608,14 @@ body {
 
 .section-cta {
   position: relative;
-  padding-top: 6.25rem;
-  padding-bottom: 100px;
-  margin-top: 150px;
+  padding-bottom: 6.25rem;
+  margin-top: 9.375rem;
 }
 
 .cta-image {
   position: absolute;
   bottom: 0;
-  left: 0;
-  max-width: 45rem;
+  max-width: 52.5rem;
 }
 
 .cta-form-wrapper {
@@ -634,14 +632,14 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 160%;
-  margin-top: 22px;
-  margin-bottom: 40px;
+  margin-top: 1.375rem;
+  margin-bottom: 2.5rem;
   max-width: 40rem;
 }
 
 .input-group-wrapper {
   display: flex;
-  gap: 30px;
+  gap: 1.875rem;
 }
 
 .input-group-vertical {
@@ -650,7 +648,7 @@ body {
 }
 .input-group {
   position: relative;
-  height: 66px;
+  height: 4.125rem;
   flex-grow: 1;
   background-color: #f0f2f5;
 }
@@ -661,7 +659,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 20px 30px;
+  padding: 1.25rem 1.875rem;
   border: 1px solid #e4e4eb;
   background-color: inherit;
 }
@@ -683,17 +681,17 @@ body {
   top: 1.5rem;
   left: 1.975rem;
   color: #828a99;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   transition: top 0.2s, left 0.2s, font-size 0.2s;
   background-color: inherit;
-  padding: 0 10px;
+  padding: 0 0.625rem;
 }
 
 .cta-form-footer {
   display: flex;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 1.875rem;
   gap: 1.875rem;
 }
 
@@ -709,7 +707,7 @@ body {
   flex-shrink: 0;
 }
 .notify-text {
-  max-width: 360px;
+  max-width: 22.5rem;
   margin: 0;
   color: #828a99;
   font-size: 0.75rem;
@@ -929,6 +927,8 @@ body {
 .header-pages {
   margin-top: 5.875rem;
   background: #f0f2f5;
+  position: relative;
+  z-index: 3;
 }
 
 .header-pages-content {
@@ -942,6 +942,15 @@ body {
 
 .breadcrumbs {
   margin-bottom: 3.125rem;
+}
+
+.breadcrumbs-home {
+  text-decoration: none;
+  color: #828a99;
+}
+
+.breadcrumbs-current {
+  color: #292d33;
 }
 
 /* @media */
