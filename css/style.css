@@ -925,6 +925,25 @@ body {
   width: 100%;
   display: block;
 }
+
+.header-pages {
+  margin-top: 5.875rem;
+  background: #f0f2f5;
+}
+
+.header-pages-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-pages-separator {
+  margin-top: 3.125rem;
+}
+
+.breadcrumbs {
+  margin-bottom: 3.125rem;
+}
+
 /* @media */
 @media (max-width: 1700px) {
   html {
