@@ -10,6 +10,7 @@ include_once("templateParts/head.php"); ?>
 	<? include_once("templateParts/mobileMenu.php"); ?>
 	<? include_once("templateParts/navbar.php"); ?>
 
+
 	<header class="header header-image">
 		<div class="container">
 			<div class="header-content">
@@ -80,65 +81,8 @@ include_once("templateParts/head.php"); ?>
 		</div>
 		<!-- /.container -->
 	</header>
-	<section class="section section-light">
-		<div class="container">
-			<div class="separator"></div>
-			<h2 class="section-title">схема работы</h2>
+	<? include_once("templateParts/shemaRaboty.php"); ?>
 
-			<div class="swiper steps-slider">
-				<!-- Additional required wrapper -->
-				<ol class="swiper-wrapper steps">
-					<!-- Slides -->
-					<li class="swiper-slide steps-item">
-						<span class="steps-num">01</span>
-						<h3 class="steps-title">Знакомство</h3>
-						<p class="steps-text">
-							Безусловно, сплочённость команды профессионалов позволяет оценить значение форм
-							воздействия.
-						</p>
-						<a href="#" class="button-link">Оставить заявку</a>
-					</li>
-					<li class="swiper-slide steps-item">
-						<span class="steps-num">02</span>
-						<h3 class="steps-title">Заключение<br />договора</h3>
-						<p class="steps-text">Лишь интерактивные прототипы призваны к ответу.</p>
-					</li>
-					<li class="swiper-slide steps-item">
-						<span class="steps-num">03</span>
-						<h3 class="steps-title">Производство</h3>
-						<p class="steps-text">
-							А также стремящиеся вытеснить традиционное производство, нанотехнологии
-							функционально разнесены на независимые элементы.
-						</p>
-					</li>
-					<li class="swiper-slide steps-item">
-						<span class="steps-num">04</span>
-						<h3 class="steps-title">Доставка</h3>
-						<p class="steps-text">
-							В частности, экономическая повестка сегодняшнего дня говорит о возможностях
-							приоритизации разума над эмоциями.
-						</p>
-					</li>
-				</ol>
-
-				<!-- If we need navigation buttons -->
-				<div class="steps-buttons primary-buttons">
-					<div class="steps-button-prev primary-button-prev">
-						<svg width="36px" height="24px">
-							<use href="img/sprite.svg#arrow-prev"></use>
-						</svg>
-					</div>
-					<div class="steps-button-next primary-button-next">
-						<svg width="36px" height="24px">
-							<use href="img/sprite.svg#arrow-next"></use>
-						</svg>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- /.container -->
-	</section>
-	<!-- /.section section-light -->
 	<section class="section production">
 		<div class="container">
 			<div class="separator"></div>
@@ -236,7 +180,7 @@ include_once("templateParts/head.php"); ?>
 			<div class="founder-content-wrapper">
 				<div class="founder-content">
 					<div class="separator"></div>
-					<h2 class="section-title">собственные торговые марки</h2>
+					<h2 class="section-title">Отношение к делу и к клиентам</h2>
 					<p class="founder-text">
 						Кстати, интерактивные прототипы описаны максимально подробно. Повседневная практика
 						показывает, что укрепление и развитие внутренней структуры говорит о возможностях
@@ -368,7 +312,7 @@ include_once("templateParts/head.php"); ?>
 						<picture class="blog-card-image">
 							<source type="image/webp" srcset="img/blog-photo1.webp">
 							<source type="image/jpeg" srcset="img/blog-photo1.jpg">
-							<img src="img/blog-photo1.jpg" alt="blog-photo">
+							<img src="img/blog-photo1.jpg" class="blog-card-image" alt="blog-photo">
 						</picture>
 						<h3 class="blog-card-title">
 							Современная методология разработки одухотворила всех причастных
@@ -382,7 +326,7 @@ include_once("templateParts/head.php"); ?>
 						<picture class="blog-card-image">
 							<source type="image/webp" srcset="img/blog-photo2.webp">
 							<source type="image/jpeg" srcset="img/blog-photo2.jpg">
-							<img src="img/blog-photo2.jpg" alt="blog-photo">
+							<img src="img/blog-photo2.jpg" class="blog-card-image" alt="blog-photo">
 						</picture>
 						<h3 class="blog-card-title">
 							Современная методология разработки одухотворила всех причастных
@@ -396,7 +340,7 @@ include_once("templateParts/head.php"); ?>
 						<picture class="blog-card-image">
 							<source type="image/webp" srcset="img/blog-photo1.webp">
 							<source type="image/jpeg" srcset="img/blog-photo1.jpg">
-							<img src="img/blog-photo1.jpg" alt="blog-photo">
+							<img src="img/blog-photo1.jpg" class="blog-card-image" alt="blog-photo">
 						</picture>
 						<h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
 						<p class="blog-card-text">
