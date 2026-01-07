@@ -230,7 +230,7 @@ include_once("templateParts/head.php"); ?>
 		<picture class="founder-photo">
 			<source type="image/webp" srcset="img/founder.webp">
 			<source type="image/jpeg" srcset="img/founder.jpg">
-			<img src="img/founder.jpg" alt="founder">
+			<img src="img/founder.jpg" class="founder-photo" alt="founder">
 		</picture>
 		<div class="container">
 			<div class="founder-content-wrapper">
