@@ -16,9 +16,9 @@ const lightModeOff = (event) => {
   logoDark.style.display = "none";
 };
 
-const changeNavHeight = (height) => {
-  navbar.style.height = height;
-};
+// const changeNavHeight = (height) => {
+//   navbar.style.height = height;
+// };
 
 const openMenu = (event) => {
   menu.classList.add("is-open");
@@ -37,7 +37,7 @@ const closeMenu = (event) => {
 };
 
 window.addEventListener("scroll", () => {
-  this.scrollY > 1 ? changeNavHeight("4.5rem") : changeNavHeight("5.875rem");
+  //   this.scrollY > 1 ? changeNavHeight("4.5rem") : changeNavHeight("5.875rem");
   if (isFront) {
     this.scrollY > 1 ? lightModeOn() : lightModeOff();
   }
