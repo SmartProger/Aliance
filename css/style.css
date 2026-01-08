@@ -977,6 +977,26 @@ body {
   color: #292d33;
 }
 
+.experts-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.experts-photo {
+  max-width: 30rem;
+}
+.experts-content {
+  padding: 3.125rem;
+}
+
+.experts-text {
+  color: #828a99;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+}
+
 /* @media */
 @media (max-width: 1700px) {
   html {
@@ -1192,6 +1212,9 @@ body {
   .clients-wrapper {
     flex-direction: column;
   }
+  .experts-photo {
+    max-width: 20rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1225,6 +1248,12 @@ body {
   }
   .card-image {
     max-width: 55%;
+  }
+  .experts-wrapper {
+    flex-direction: column;
+  }
+  .experts-photo {
+    margin-top: 2rem;
   }
 }
 
