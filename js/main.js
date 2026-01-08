@@ -107,6 +107,17 @@ const swiperBlog = new Swiper(".blog-slider", {
   },
 });
 
+if (!isFront) {
+  const sliderButtonPrev = document.querySelector(".slider-button-prev");
+  const sliderButtonNext = document.querySelector(".slider-button-next");
+
+  const usePrev = sliderButtonPrev.querySelector("use");
+  const useNext = sliderButtonNext.querySelector("use");
+
+  usePrev.href.baseVal = "img/sprite.svg#prev-dark";
+  useNext.href.baseVal = "img/sprite.svg#next-dark";
+}
+
 let currentModal; // текущее модальное окно
 let modalDialog; // белое окошко модалки
 let alertModal = document.querySelector("#alert-modal");
