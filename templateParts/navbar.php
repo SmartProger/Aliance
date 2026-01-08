@@ -20,7 +20,7 @@
 			<a href="contracts.php" class="header-nav-link">Контрактное производство</a>
 		</li>
 		<li class="header-nav-item">
-			<a href="trademarks.php" class="header-nav-link">Собственные торговые марки</a>
+			<a href="#" class="header-nav-link">Собственные торговые марки</a>
 		</li>
 		<li class="header-nav-item">
 			<a href="#" class="header-nav-link">Новости</a>

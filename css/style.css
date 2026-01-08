@@ -384,6 +384,10 @@ body {
   display: none;
 }
 
+.hidden-production-title {
+  display: none;
+}
+
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -1020,6 +1024,31 @@ body {
 }
 .ourProduction-saparator-hidden {
   display: none;
+}
+
+.seo-title {
+  color: #292d33;
+  font-style: Regular;
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.seo-text {
+  color: #828a99;
+  font-style: Regular;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.seo-more {
+  text-decoration: none;
+  color: #5c8ee6;
+  font-style: SemiBold;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 160%;
 }
 
 /* @media */
