@@ -1,4 +1,4 @@
-<nav class="navbar">
+<nav class="navbar <?php echo $nav_color; ?>">
 	<a href="#" class="mobile-menu-toggle">
 		<div class="mobile-menu-line"></div>
 		<div class="mobile-menu-line"></div>

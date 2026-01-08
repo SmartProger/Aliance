@@ -7,8 +7,10 @@ include_once("templateParts/head.php"); ?>
 
 <body class="front-page">
 
-	<? include_once("templateParts/mobileMenu.php"); ?>
-	<? include_once("templateParts/navbar.php"); ?>
+	<?php include_once("templateParts/mobileMenu.php"); ?>
+	<?php
+	$nav_color = "";
+	include_once("templateParts/navbar.php"); ?>
 
 
 	<header class="header header-image">
