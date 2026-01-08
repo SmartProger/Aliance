@@ -1045,7 +1045,6 @@ body {
 .seo-more {
   text-decoration: none;
   color: #5c8ee6;
-  font-style: SemiBold;
   font-size: 1rem;
   font-weight: 600;
   line-height: 160%;
@@ -1270,6 +1269,10 @@ body {
   .ourProduction-photo {
     max-width: 20rem;
   }
+  .footer-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1353,10 +1356,6 @@ body {
   }
   .clients-logo-item {
     flex-basis: 50%;
-  }
-  .footer-top {
-    flex-direction: column;
-    align-items: flex-start;
   }
   .footer-bottom {
     flex-direction: column;
