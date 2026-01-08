@@ -357,8 +357,10 @@ body {
   transition: width 0.2s;
 }
 
-.button-link:hover::before {
-  width: 3.75rem;
+@media (min-width: 992px) {
+  .button-link:hover::before {
+    width: 3.75rem;
+  }
 }
 
 .primary-buttons {
@@ -395,12 +397,13 @@ body {
   transition: border 0.2s;
 }
 
-.card:hover .card-title {
-  color: #5c8ee6;
-}
-
-.card:hover {
-  border-color: #5c8ee6;
+@media (min-width: 992px) {
+  .card:hover .card-title {
+    color: #5c8ee6;
+  }
+  .card:hover {
+    border-color: #5c8ee6;
+  }
 }
 
 .card-content {
@@ -453,15 +456,16 @@ body {
     "logo text text";
 }
 
-.trademark-card:hover {
-  border-color: #5c8ee6;
-}
-
-.trademark-card:hover .trademark-card-logo {
-  fill: #5c8ee6;
-}
-.trademark-card:hover .trademark-card-title {
-  color: #5c8ee6;
+@media (min-width: 992px) {
+  .trademark-card:hover {
+    border-color: #5c8ee6;
+  }
+  .trademark-card:hover .trademark-card-logo {
+    fill: #5c8ee6;
+  }
+  .trademark-card:hover .trademark-card-title {
+    color: #5c8ee6;
+  }
 }
 
 .trademark-card-logo {
@@ -558,8 +562,10 @@ body {
   transition: filter 0.3s;
 }
 
-.clients-logo-item:hover {
-  filter: grayscale(0%);
+@media (min-width: 992px) {
+  .clients-logo-item:hover {
+    filter: grayscale(0%);
+  }
 }
 
 .clients-logo {
