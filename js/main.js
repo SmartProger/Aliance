@@ -5,29 +5,25 @@ const menuToggle = document.querySelector(".mobile-menu-toggle");
 const menu = document.querySelector(".mobile-menu");
 const isFront = document.body.classList.contains("front-page");
 
-const lightModeOn = (event) => {
+const lightModeOn = () => {
   navbar.classList.add("navbar-light");
   logoDark.style.display = "block";
   logoLight.style.display = "none";
 };
-const lightModeOff = (event) => {
+const lightModeOff = () => {
   navbar.classList.remove("navbar-light");
   logoLight.style.display = "block";
   logoDark.style.display = "none";
 };
 
-// const changeNavHeight = (height) => {
-//   navbar.style.height = height;
-// };
-
-const openMenu = (event) => {
+const openMenu = () => {
   menu.classList.add("is-open");
   document.body.style.overflow = "hidden";
   menuToggle.classList.add("close-menu");
   lightModeOn();
 };
 
-const closeMenu = (event) => {
+const closeMenu = () => {
   menu.classList.remove("is-open");
   document.body.style.overflow = "";
   menuToggle.classList.remove("close-menu");
@@ -37,7 +33,6 @@ const closeMenu = (event) => {
 };
 
 window.addEventListener("scroll", () => {
-  //   this.scrollY > 1 ? changeNavHeight("4.5rem") : changeNavHeight("5.875rem");
   if (isFront) {
     this.scrollY > 1 ? lightModeOn() : lightModeOff();
   }
