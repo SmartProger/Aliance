@@ -976,6 +976,11 @@ body {
   background: #f0f2f5;
 }
 
+.header-secondary-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
 .header-secondary-content {
   display: flex;
   flex-direction: column;
@@ -983,6 +988,14 @@ body {
 
 .header-secondary-separator {
   margin-top: 3.125rem;
+}
+
+.header-secondary-img-block {
+  display: flex;
+  align-items: flex-end;
+}
+.header-secondary-img {
+  max-width: 90%;
 }
 
 .breadcrumbs {
@@ -1004,7 +1017,7 @@ body {
   justify-content: space-between;
 }
 
-.experts-photo,
+.expert .experts-photo,
 .ourProduction-photo {
   max-width: 30rem;
 }
@@ -1026,6 +1039,33 @@ body {
   display: none;
 }
 
+.avtohim-wrapper {
+  display: flex;
+}
+
+.avtohim-image-wrapper {
+  width: 38.75rem;
+  display: flex;
+}
+
+.avtohim-photo {
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.izgot-avtohim-wrapper {
+  height: 41.25rem;
+  display: flex;
+}
+
+.izgot-avtohim {
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.container-right {
+  margin-right: 0;
+}
 .seo-title {
   color: #292d33;
   font-style: Regular;

@@ -7,22 +7,22 @@
 			<a href="contracts.php" class="mobile-menu-link">Контрактное производство</a>
 			<ul class="mobile-submenu">
 				<li class="mobile-submenu-item">
-					<a class="mobile-submenu-link" href="contracts.php">Автомобильная химия</a>
+					<a class="mobile-submenu-link" href="avtohim.php">Автомобильная химия</a>
 				</li>
 				<li class="mobile-submenu-item">
-					<a class="mobile-submenu-link" href="contracts.php">Бытовая химия</a>
+					<a class="mobile-submenu-link" href="#">Бытовая химия</a>
 				</li>
 				<li class="mobile-submenu-item">
-					<a class="mobile-submenu-link" href="contracts.php">Дезинфицирующие средства</a>
+					<a class="mobile-submenu-link" href="#">Дезинфицирующие средства</a>
 				</li>
 				<li class="mobile-submenu-item">
-					<a class="mobile-submenu-link" href="contracts.php">Пищевые аэрозоли</a>
+					<a class="mobile-submenu-link" href="#">Пищевые аэрозоли</a>
 				</li>
 				<li class="mobile-submenu-item">
-					<a class="mobile-submenu-link" href="contracts.php">Косметическая продукция</a>
+					<a class="mobile-submenu-link" href="#">Косметическая продукция</a>
 				</li>
 				<li class="mobile-submenu-item">
-					<a class="mobile-submenu-link" href="contracts.php">Краски аэрозольные</a>
+					<a class="mobile-submenu-link" href="#">Краски аэрозольные</a>
 				</li>
 			</ul>
 		</li>
