@@ -1375,6 +1375,16 @@ body {
     display: flex;
     order: -1;
   }
+  .avtohim-wrapper {
+    flex-direction: column;
+    width: 100%;
+  }
+  .avtohim-image-wrapper {
+    max-width: 100%;
+  }
+  .izgot-avtohim-wrapper {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 576px) {
