@@ -1409,4 +1409,7 @@ body {
   .blog-card-text {
     display: none;
   }
+  .cta-form-footer {
+    flex-direction: column;
+  }
 }
