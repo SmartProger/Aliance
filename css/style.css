@@ -29,7 +29,7 @@ body {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 87%;
   margin: auto;
 }
 
@@ -1066,7 +1066,6 @@ body {
   overflow: hidden;
 }
 
-
 .seo-title {
   color: #292d33;
   font-style: Regular;
@@ -1123,7 +1122,6 @@ body {
 }
 
 @media (max-width: 1220px) {
-  
   .header-phone {
     display: none;
   }
@@ -1319,7 +1317,6 @@ body {
 }
 
 @media (max-width: 768px) {
-
   .header-title {
     font-size: 3.5rem;
     padding-top: 1.875rem;
@@ -1392,7 +1389,6 @@ body {
 }
 
 @media (max-width: 576px) {
-
   .header-content {
     padding-top: 2rem;
   }
