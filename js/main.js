@@ -145,7 +145,7 @@ forms.forEach((form) => {
     .addField("[name=username]", [
       {
         rule: "required",
-        errorMessage: "Укажите имя",
+        errorMessage: "",
       },
       {
         rule: "maxLength",
@@ -156,7 +156,7 @@ forms.forEach((form) => {
     .addField("[name=userphone]", [
       {
         rule: "required",
-        errorMessage: "Укажите телефон",
+        errorMessage: "",
       },
     ])
     .onSuccess((event) => {
