@@ -27,7 +27,7 @@ const closeMenu = () => {
   menu.classList.remove("is-open");
   document.body.style.overflow = "";
   menuToggle.classList.remove("close-menu");
-  if (document.documentElement.scrollTop == 0) {
+  if (document.documentElement.scrollTop == 0 && isFront) {
     lightModeOff();
   }
 };
