@@ -27,7 +27,7 @@
 			</ul>
 		</li>
 		<li class="mobile-menu-nav-item">
-			<a href="#" class="mobile-menu-link">Собственные торговые марки</a>
+			<a href="own_marks.php" class="mobile-menu-link">Собственные торговые марки</a>
 		</li>
 		<li class="mobile-menu-nav-item">
 			<a href="#" class="mobile-menu-link">Новости</a>
