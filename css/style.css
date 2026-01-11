@@ -1115,6 +1115,12 @@ body {
   line-height: 160%;
 }
 
+.research-center-text-wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 6.25rem;
+}
+
 /* @media */
 @media (max-width: 1700px) {
   html {
