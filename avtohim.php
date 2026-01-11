@@ -115,6 +115,179 @@ include_once("templateParts/head.php"); ?>
 
 		</div>
 	</section>
+	<section class="section avtohim-types">
+		<div class="container">
+			<div class="separator"></div>
+			<h2 class="section-title">Виды автохимии</h2>
+			<p class="ourProduction-text experts-text text">
+				Но современная методология разработки позволяет оценить значение прогресса профессионального сообщества. Есть над чем задуматься: тщательные исследования конкурентов набирают популярность среди определенных слоев населения, а значит, должны быть ассоциативно распределены по отраслям.
+			</p>
+			<ul class="avtohim-types-list">
+				<li class="avtohim-types-item">
+					<span class="avtohim-types-item-start">
+						—
+					</span>
+					<span class="avtohim-types-item-end">
+						Антискотч
+					</span>
+				</li>
+				<li class="avtohim-types-item">
+					<span class="avtohim-types-item-start">
+						—
+					</span>
+					<span class="avtohim-types-item-end">
+						Многоцелевая смазка
+					</span>
+				</li>
+				<li class="avtohim-types-item">
+					<span class="avtohim-types-item-start">
+						—
+					</span>
+					<span class="avtohim-types-item-end">
+						Жидкий ключ
+					</span>
+				</li>
+				<li class="avtohim-types-item">
+					<span class="avtohim-types-item-start">
+						—
+					</span>
+					<span class="avtohim-types-item-end">
+						Высокотемпературная смазка
+					</span>
+				</li>
+				<li class="avtohim-types-item">
+					<span class="avtohim-types-item-start">
+						—
+					</span>
+					<div class="avtohim-types-item-end">
+						Универсальный очиститель деталей
+					</div>
+				</li>
+				<li class="avtohim-types-item">
+					<span class="avtohim-types-item-start">
+						—
+					</span>
+					<span class="avtohim-types-item-end">
+						Силиконовая смазка
+					</span>
+				</li>
+				<li class="avtohim-types-item">
+					<span class="avtohim-types-item-start">
+						—
+					</span>
+					<span class="avtohim-types-item-end">
+						Цепная смазка
+					</span>
+				</li>
+				<li class="avtohim-types-item">
+					<span class="avtohim-types-item-start">
+						—
+					</span>
+					<span class="avtohim-types-item-end">
+						Медная смазка
+					</span>
+				</li>
+				<li class="avtohim-types-item">
+					<span class="avtohim-types-item-start">
+						—
+					</span>
+					<span class="avtohim-types-item-end">
+						Графитовая смазка
+					</span>
+				</li>
+				<li class="avtohim-types-item">
+					<span class="avtohim-types-item-start">
+						—
+					</span>
+					<span class="avtohim-types-item-end">
+						Очиститель кондиционера пенный
+					</span>
+				</li>
+				<li class="avtohim-types-item">
+					<span class="avtohim-types-item-start">
+						—
+					</span>
+					<span class="avtohim-types-item-end">
+						Очиститель тормозных дисков
+					</span>
+				</li>
+				<li class="avtohim-types-item">
+					<span class="avtohim-types-item-start">
+						—
+					</span>
+					<span class="avtohim-types-item-end">
+						Очиститель битумных пятен
+					</span>
+				</li>
+				<li class="avtohim-types-item">
+					<span class="avtohim-types-item-start">
+						—
+					</span>
+					<span class="avtohim-types-item-end">
+						Очиститель кондционера
+					</span>
+				</li>
+				<li class="avtohim-types-item">
+					<span class="avtohim-types-item-start">
+						—
+					</span>
+					<span class="avtohim-types-item-end">
+						Очиститель дросельной заслонки
+					</span>
+				</li>
+				<li class="avtohim-types-item">
+					<span class="avtohim-types-item-start">
+						—
+					</span>
+					<span class="avtohim-types-item-end">
+						Очиститель обивки
+					</span>
+				</li>
+				<li class="avtohim-types-item">
+					<span class="avtohim-types-item-start">
+						—
+					</span>
+					<span class="avtohim-types-item-end">
+						Тефлоновая смазка
+					</span>
+				</li>
+				<li class="avtohim-types-item">
+					<span class="avtohim-types-item-start">
+						—
+					</span>
+					<span class="avtohim-types-item-end">
+						Очиститель двигателя
+					</span>
+				</li>
+				<li class="avtohim-types-item">
+					<span class="avtohim-types-item-start">
+						—
+					</span>
+					<span class="avtohim-types-item-end">
+						Универсальный очиститель
+					</span>
+				</li>
+				<li class="avtohim-types-item">
+					<span class="avtohim-types-item-start">
+						—
+					</span>
+					<span class="avtohim-types-item-end">
+						Чернитель шин
+					</span>
+				</li>
+				<li class="avtohim-types-item">
+					<span class="avtohim-types-item-start">
+						—
+					</span>
+					<span class="avtohim-types-item-end">
+						Чернитель шин + очистка
+					</span>
+				</li>
+
+			</ul>
+		</div>
+	</section>
+
 
 	<?php include_once('templateParts/footer.php'); ?>
 	<?php include_once('templateParts/scripts.php'); ?>

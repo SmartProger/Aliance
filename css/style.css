@@ -1090,6 +1090,31 @@ body {
   line-height: 160%;
 }
 
+.avtohim-types-list {
+  list-style: none;
+  columns: 4;
+}
+
+.avtohim-types-item {
+  display: flex;
+  align-items: top;
+}
+
+.avtohim-types-item-start {
+  color: #5c8ee6;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 160%;
+  margin-right: 1.25rem;
+}
+
+.avtohim-types-item-end {
+  color: #292d33;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+}
+
 /* @media */
 @media (max-width: 1700px) {
   html {
@@ -1314,6 +1339,9 @@ body {
   .avtohim-image-wrapper {
     max-width: 25rem;
   }
+  .avtohim-types-list {
+    columns: 3;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1386,6 +1414,9 @@ body {
   .header-secondary-img-block {
     display: none;
   }
+  .avtohim-types-list {
+    columns: 2;
+  }
 }
 
 @media (max-width: 576px) {
@@ -1419,5 +1450,8 @@ body {
   }
   .cta-form-footer {
     flex-direction: column;
+  }
+  .avtohim-types-list {
+    columns: 1;
   }
 }
