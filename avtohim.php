@@ -50,6 +50,8 @@ include_once("templateParts/head.php"); ?>
 
 	<?php
 	$features_slider_color = "features-slider-dark";
+	$slider_prev_button = "prev-dark";
+	$slider_next_button = "next-dark";
 	include_once("templateParts/swiper/features-slider.php"); ?>
 
 	<section class="section section-ourProduction">
