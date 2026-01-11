@@ -1400,6 +1400,12 @@ body {
   .footer-bottom {
     flex-direction: column;
   }
+  .footer-menu-wrapper:last-child {
+    margin: 0;
+  }
+  .footer-menu-wrapper:last-child .footer-menu-list {
+    padding: 0;
+  }
   .blog-card-text {
     display: none;
   }
