@@ -768,6 +768,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 5px;
 }
 
 .footer-logo {
@@ -804,7 +805,8 @@ body {
 }
 
 .footer-separator {
-  color: #ebebf0;
+  height: 1px;
+  border: none;
   background-color: #ebebf0;
 }
 

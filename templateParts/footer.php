@@ -87,7 +87,7 @@
 			</div>
 		</div>
 	</div>
-	<hr color="#ebebf0" class="footer-separator" />
+	<hr class="footer-separator" />
 	<div class="container">
 		<div class="footer-bottom">
 			<div class="footer-menu-wrapper">
@@ -145,7 +145,7 @@
 			</div>
 		</div>
 	</div>
-	<hr color="#ebebf0" class="footer-separator" />
+	<hr class="footer-separator" />
 	<div class="container">
 		<div class="footer-wrapper">
 			<div class="footer-legal">
