@@ -211,16 +211,21 @@
 </div>
 <div class="modal" id="alert-modal">
 	<div class="modal-dialog">
-		<h2 class="modal-title">Спасибо!</h2>
+		<svg width="360px" height="310px">
+			<use href="img/sprite.svg#thanks"></use>
+		</svg>
+		<h2 class="modal-title">Спасибо за заявку!</h2>
 		<a href="#" class="modal-close" data-toggle="modal" data-target="#alert-modal">
 			<svg class="close-item" width="18" height="18">
 				<use href="img/sprite.svg#modalClose"></use>
 			</svg>
 		</a>
-		<p class="modal-text">
-			Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все
-			интересующие вопросы и поможем даже в самых сложных случаях!
+		<p class="modal-text alert-modal-text">
+			Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
 		</p>
+		<a href="index.php" class="button button-alert-modal">
+			Вернуться на главную
+		</a>
 
 	</div>
 </div>

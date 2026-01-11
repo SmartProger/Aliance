@@ -962,6 +962,14 @@ body {
   display: block;
 }
 
+.alert-modal-text {
+  margin-top: 1.25rem;
+}
+.button-alert-modal {
+  text-decoration: none;
+  margin-top: 1.875rem;
+}
+
 .header-secondary {
   margin-top: 5.875rem;
   background: #f0f2f5;
