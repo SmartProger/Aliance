@@ -211,7 +211,7 @@
 </div>
 <div class="modal" id="alert-modal">
 	<div class="modal-dialog">
-		<svg width="360px" height="310px">
+		<svg class="alert-modal-svg">
 			<use href="img/sprite.svg#thanks"></use>
 		</svg>
 		<h2 class="modal-title">Спасибо за заявку!</h2>
