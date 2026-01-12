@@ -1352,6 +1352,9 @@ body {
   .avtohim-types-list {
     columns: 3;
   }
+  .research-center-text-wrapper {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1427,6 +1430,14 @@ body {
   .avtohim-types-list {
     columns: 2;
   }
+  .izgot-avtohim-wrapper {
+    max-height: 350px;
+    width: 100%;
+  }
+  .izgot-avtohim {
+    overflow: hidden;
+    object-fit: cover;
+  }
 }
 
 @media (max-width: 576px) {
@@ -1463,6 +1474,9 @@ body {
   }
   .avtohim-types-list {
     columns: 1;
+  }
+  .izgot-avtohim-wrapper {
+    max-height: 270px;
   }
   .modal-dialog {
     width: 345px;
