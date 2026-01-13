@@ -1398,6 +1398,26 @@ body {
   .research-center-text-wrapper {
     flex-direction: column;
   }
+  .cards-row {
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 0;
+  }
+  .blog-page-card {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+  .blog-pageNumbers {
+    gap: 0;
+  }
+  .blog-pageNumbers-item {
+    padding: 20px;
+    margin: 0;
+  }
+  .blog-pageNumbers-item-first {
+    border: 1px solid #5c8ee6;
+  }
 }
 
 @media (max-width: 768px) {
