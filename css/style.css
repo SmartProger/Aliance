@@ -1134,17 +1134,12 @@ body {
 
 .blog-cards {
   margin-top: 8.125rem;
+  columns: 2;
+  column-gap: 30px;
 }
 
 .blog-page-card {
-  width: 50%;
   height: 400px;
-}
-
-.cards-row {
-  display: flex;
-  width: 100%;
-  column-gap: 30px;
   margin-bottom: 30px;
 }
 
@@ -1398,13 +1393,12 @@ body {
   .research-center-text-wrapper {
     flex-direction: column;
   }
-  .cards-row {
-    flex-direction: column;
-    display: flex;
-    margin-bottom: 0;
+  .blog-cards {
+    margin-top: 8.125rem;
+    columns: 1;
+    column-gap: 10px;
   }
   .blog-page-card {
-    width: 100%;
     height: 200px;
     margin-bottom: 10px;
   }
