@@ -1132,6 +1132,42 @@ body {
   line-height: 160%;
 }
 
+.blog-cards {
+  margin-top: 8.125rem;
+}
+
+.blog-page-card {
+  width: 50%;
+  height: 400px;
+}
+
+.cards-row {
+  display: flex;
+  width: 100%;
+  column-gap: 30px;
+  margin-bottom: 30px;
+}
+
+.blog-pageNumbers {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 35px;
+  margin-top: 50px;
+}
+
+.blog-pageNumbers-item {
+  color: #292d33;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 160%;
+}
+
+.blog-pageNumbers-item-first {
+  color: #5c8ee6;
+  margin-right: 20px;
+}
+
 /* @media */
 @media (max-width: 1700px) {
   html {

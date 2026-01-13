@@ -127,7 +127,7 @@ include_once("templateParts/head.php"); ?>
 
 				<!-- If we need navigation buttons -->
 				<div class="blog-slider-footer">
-					<a href="#" class="button-link">весь блог</a>
+					<a href="blog.php" class="button-link">весь блог</a>
 					<div class="blog-buttons primary-buttons">
 						<div class="blog-button-prev primary-button-prev">
 							<svg width="36px" height="24px">
