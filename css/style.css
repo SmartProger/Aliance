@@ -1125,6 +1125,13 @@ body {
   column-gap: 6.25rem;
 }
 
+.policy-text {
+  color: #292d33;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+}
+
 /* @media */
 @media (max-width: 1700px) {
   html {
