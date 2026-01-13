@@ -39,7 +39,7 @@
 	<div class="slider-buttons">
 		<div class="slider-button-prev">
 			<svg width="36px" height="24px">
-				<use href="img/sprite.svg#<?= $slider_prev_button; ?>?>"></use>
+				<use href="img/sprite.svg#<?= $slider_prev_button; ?>"></use>
 			</svg>
 		</div>
 		<div class="slider-button-next">

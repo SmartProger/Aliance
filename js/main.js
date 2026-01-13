@@ -135,7 +135,6 @@ document.addEventListener("keyup", (event) => {
 const forms = document.querySelectorAll("form");
 
 forms.forEach((form) => {
-  console.log(form);
   // initialize the validation library
   const validation = new JustValidate(form, {
     errorFieldCssClass: "is-invalid",

@@ -31,6 +31,8 @@ include_once("templateParts/head.php"); ?>
 
 			<?php
 			$features_slider_color = "features-slider-light";
+			$slider_prev_button = "arrow-prev";
+			$slider_next_button = "arrow-next";
 			include_once("templateParts/swiper/features-slider.php"); ?>
 		</div>
 		<!-- /.container -->
