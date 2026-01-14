@@ -1,5 +1,5 @@
-<section class="section production">
-	<div class="container">
+<section class="section section-production">
+	<div class="container container-production">
 		<div class="separator <?= $show_title; ?>"></div>
 		<h2 class="section-title <?= $show_title; ?>">контрактное производство</h2>
 		<div class="cards">

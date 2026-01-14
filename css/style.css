@@ -7,7 +7,7 @@
 }
 
 html {
-   font-size: 16px;  /* 1rem */
+  font-size: 16px; /* 1rem */
 }
 
 @font-face {
@@ -29,7 +29,7 @@ body {
 }
 
 .container {
-  max-width: 87%;
+  max-width: 75%;
   margin: auto;
 }
 
@@ -42,7 +42,7 @@ body {
 }
 .header-image {
   background-image: url("../img/main_img.webp");
-  background-position: center bottom;
+  background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -204,7 +204,6 @@ body {
 }
 
 .header-content {
-  margin-left: 4.375rem;
   padding-top: 9.375rem;
   position: relative;
   z-index: 1;
@@ -212,14 +211,14 @@ body {
 }
 
 .header-title {
-  max-width: 67.5rem;
+  max-width: 1030px;
   color: #fff;
   font-family: "Bebas Neue Book";
-  font-size: 4.5rem;
+  font-size: 80px;
   font-weight: 400;
   line-height: 120%;
   letter-spacing: 0.7px;
-  margin: 0 0;
+  margin: 26px 0;
 }
 
 .header-text {
@@ -282,6 +281,18 @@ body {
   position: relative;
   margin-top: 3.125rem;
   margin-bottom: 3.125rem;
+}
+
+.section-light {
+  margin-top: 100px;
+}
+
+.container-production {
+  max-width: 75%;
+}
+.section-production {
+  margin-left: 75px;
+  margin-top: 115px;
 }
 
 .section-title {
@@ -498,6 +509,7 @@ body {
 }
 
 .founder {
+  margin-top: 75px;
   min-height: 41.25rem;
   position: relative;
 }
@@ -506,7 +518,7 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  width: 60%;
+  width: 66%;
   min-height: 100%;
   object-fit: cover;
 }
@@ -516,7 +528,8 @@ body {
 }
 
 .founder-content {
-  max-width: 45rem;
+  margin-top: 95px;
+  max-width: 705px;
 }
 
 .founder-text {
@@ -525,8 +538,11 @@ body {
   font-weight: 400;
   line-height: 160%;
 }
-
+.clients {
+  margin-top: 185px;
+}
 .clients-wrapper {
+  height: 535px;
   display: flex;
   gap: 3.125rem;
 }
@@ -576,7 +592,9 @@ body {
 .clients-logo {
   max-width: 100%;
 }
-
+.blog {
+  margin-top: 85px;
+}
 .blog-card {
   display: flex;
   position: relative;
@@ -638,6 +656,9 @@ body {
   background: #f0f2f5;
 }
 
+.cta {
+  margin-top: 220px;
+}
 .section-cta {
   position: relative;
   padding-bottom: 6.25rem;
@@ -653,6 +674,7 @@ body {
 .cta-form-wrapper {
   display: flex;
   justify-content: flex-end;
+  max-width: 60%;
 }
 
 .cta-form {
@@ -800,8 +822,7 @@ body {
 }
 
 .footer-bottom {
-  padding-top: 3.125rem;
-  padding-bottom: 3.125rem;
+  padding-top: 20px;
 }
 
 .footer-menu-title {
@@ -821,8 +842,8 @@ body {
 }
 
 .footer-menu-column-2 {
-  columns: 20rem auto;
-  /* min-width: 50rem; */
+  columns: 2;
+  column-gap: 140px;
 }
 .footer-menu-link {
   text-decoration: none;
@@ -845,6 +866,7 @@ body {
 }
 
 .footer-bottom {
+  gap: 100px;
   display: flex;
 }
 
@@ -1547,5 +1569,8 @@ body {
   .alert-modal-svg {
     width: 285px;
     height: 245px;
+  }
+  .section-production {
+    margin-left: 0;
   }
 }
