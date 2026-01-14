@@ -1523,6 +1523,23 @@ body {
   .header-content {
     padding-top: 2rem;
   }
+  .container {
+    max-width: 90%;
+  }
+  .separator {
+    margin-top: 23px;
+  }
+  .header-title {
+    margin-top: 14px;
+    padding-top: 0;
+    font-size: 49px;
+  }
+  .section-title {
+    font-size: 36px;
+  }
+  .header-button-about {
+    width: 100%;
+  }
   .trademark-card {
     column-gap: 0;
     grid-template-columns: 12rem 1fr;
@@ -1571,6 +1588,94 @@ body {
     height: 245px;
   }
   .section-production {
+    margin-top: 90px;
     margin-left: 0;
+  }
+  .card {
+    height: 426px;
+  }
+  .card-content {
+    padding: 30px 25px;
+  }
+  .card-image {
+    max-width: 100%;
+    width: 90%;
+  }
+  .trademark {
+    margin-top: 110px;
+  }
+  .trademark-card {
+    padding: 20px 20px;
+  }
+  .founder-photo {
+    padding-bottom: 0;
+  }
+  .founder-content-wrapper {
+    margin-top: -40px;
+  }
+  .founder-text {
+    font-size: 14px;
+  }
+  .clients {
+    margin-top: 80px;
+  }
+  .clients-list-item {
+    margin-bottom: 15px;
+  }
+  .clients-wrapper {
+    height: auto;
+  }
+  .clients-logo {
+    width: 50px;
+  }
+  .clients-logo-item {
+    padding: 15px;
+  }
+  .blog {
+    margin-top: -38px;
+  }
+  .blog .separator {
+    margin-top: 85px;
+  }
+  .blog .section-title {
+    margin-top: 65px;
+  }
+  .blog-buttons {
+    height: 40px;
+  }
+  .cta {
+    margin-top: -60px;
+  }
+  .cta-form-text {
+    font-style: 13px;
+  }
+  .cta .input-group-wrapper {
+    flex-direction: column;
+  }
+  .cta-form-button {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .footer-top {
+    font-size: 14px;
+  }
+  .footer-logo {
+    width: 16.5rem;
+    height: 9.75rem;
+  }
+  .footer-menu-column-2 {
+    columns: 1;
+  }
+  .footer-menu-list {
+    padding-left: 16px;
+  }
+  .footer-bottom {
+    gap: 30px;
+  }
+  .footer-wrapper,
+  .footer-legal {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
   }
 }

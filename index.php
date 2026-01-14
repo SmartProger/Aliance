@@ -25,7 +25,7 @@ include_once("templateParts/head.php"); ?>
 					доказательством простого факта: высококачественный прототип будущего проекта напрямую
 					зависит от анализа существующих паттернов поведения.
 				</p>
-				<button class="button" data-toggle="modal" data-target="#feedback-modal">Подробнее о компании</button>
+				<button class="button header-button-about" data-toggle="modal" data-target="#feedback-modal">Подробнее о компании</button>
 			</div>
 			<!-- /.header-content -->
 
@@ -44,7 +44,7 @@ include_once("templateParts/head.php"); ?>
 	<section class="section trademark">
 		<div class="container">
 			<div class="separator"></div>
-			<h2 class="section-title">собственные торговые марки</h2>
+			<h2 class="section-title">собственные марки</h2>
 			<div class="trademark-cards">
 				<div class="trademark-card">
 					<svg class="trademark-card-logo">
