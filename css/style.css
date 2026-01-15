@@ -1434,6 +1434,12 @@ body {
   .blog-pageNumbers-item-first {
     border: 1px solid #5c8ee6;
   }
+  .footer-menu-column-2 {
+    column-gap: 15px;
+  }
+  .footer-bottom {
+    gap: 10px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1516,6 +1522,15 @@ body {
   .izgot-avtohim {
     overflow: hidden;
     object-fit: cover;
+  }
+  .footer-menu-column-2 {
+    columns: 1;
+  }
+  .footer-menu-list {
+    padding-left: 16px;
+  }
+  .footer-bottom {
+    gap: 30px;
   }
 }
 
@@ -1663,15 +1678,7 @@ body {
     width: 16.5rem;
     height: 9.75rem;
   }
-  .footer-menu-column-2 {
-    columns: 1;
-  }
-  .footer-menu-list {
-    padding-left: 16px;
-  }
-  .footer-bottom {
-    gap: 30px;
-  }
+
   .footer-wrapper,
   .footer-legal {
     flex-direction: column;
